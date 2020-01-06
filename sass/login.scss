@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+a {
+    text-decoration: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: #f9f9f9;
+    line-height: 1.5;
+    color: #333;
+    font-size: 12px;
+    ul li {
+        list-style: none
+    }
+}
+
+.box {
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+    .lgheader {
+        width: 100%;
+        min-height: 100px;
+        margin-top: 20px;
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            .lglogo {
+                float: left;
+                width: 200px;
+                a {
+                    text-decoration: none
+                }
+            }
+            .lgerr {
+                text-align: center;
+                width: 800px;
+                margin: 0 auto;
+                margin-top: 12px;
+                border: 1px solid;
+                border-color: #ffb4a8;
+                background: #fef2f2;
+                line-height: 16px;
+                padding: 6px 10px;
+                overflow: hidden;
+                color: #6C6C6C;
+            }
+            .lgitems {
+                margin-top: 17px;
+                margin-right: 47px;
+                float: right;
+                ul li {
+                    float: left;
+                }
+            }
+        }
+    }
+    .content {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        height: 580px;
+        .bg {
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: url(../imgs/loginbg.jpg) no-repeat center
+        }
+        .form {
+            width: 350px;
+            float: right;
+            margin-right: 18%;
+            height: 100%;
+            position: relative;
+            h3 {
+                font-size: 20px;
+                margin-bottom: 10px;
+                color: #fff;
+                margin-top: 12%;
+            }
+            .formbox {
+                // text-align: left;
+                background: #fff;
+                height: 395px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+                .content {
+                    margin-left: 0;
+                    margin: 0 auto;
+                    display: block!important;
+                    width: 80%;
+                    padding-top: 10px;
+                    position: relative;
+                    text-align: left;
+                    p {
+                        height: 45px;
+                        font-size: 18px;
+                        line-height: 45px;
+                        color: #666;
+                    }
+                    .form {
+                        width: 100%;
+                        margin: 0;
+                        input {
+                            display: block;
+                            width: 278px;
+                            height: 44px;
+                            border: 1px solid #ccc;
+                            margin-bottom: 15px;
+                            padding: 12px 10px;
+                            box-sizing: border-box;
+                            cursor: pointer;
+                        }
+                        #loginbtn {
+                            border: none;
+                            background: red;
+                            border-radius: 3px;
+                            font-size: 16px;
+                            // height: 44px;
+                            // line-height: 44px;
+                            // text-align: center;
+                            // width: 100%;
+                            -webkit-appearance: none;
+                            margin: 16px 0 0;
+                            color: #fff!important;
+                        }
+                        #registerbtn {
+                            border: none;
+                            // background: red;
+                            border-radius: 3px;
+                            font-size: 16px;
+                            -webkit-appearance: none;
+                            margin: 16px 0 0;
+                            color: #333;
+                        }
+                        .forget {
+                            width: 100%;
+                            text-align: right;
+                            a {
+                                text-decoration: none;
+                                color: #333
+                            }
+                        }
+                        .share {
+                            display: block;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    .contain {
+        position: relative;
+        left: 0;
+        right: 0
+    }
+}

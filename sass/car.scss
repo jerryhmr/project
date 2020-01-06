@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.m-top {
+    height: 36px;
+    background-color: #FCFCFC;
+    border-bottom: 1px solid #EDEEF0;
+    .container {
+        width: 1210px;
+        height: 100%;
+        margin: 0 auto;
+        .mtleft {
+            float: left;
+            h5 span:nth-child(1) {
+                font-size: 12px;
+                line-height: 36px;
+                color: #666;
+            }
+            h5 span:nth-child(2) {
+                font-size: 12px;
+                line-height: 36px;
+                color: #ddd;
+                a {
+                    color: #ff6600;
+                    text-decoration: none;
+                }
+            }
+        }
+        .mtright {
+            float: right;
+            dd {
+                float: left;
+                p:hover {
+                    border-left: 1px solid #EDEEF0;
+                    border-right: 1px solid #EDEEF0;
+                }
+                p {
+                    float: left;
+                    font-size: 12px;
+                    line-height: 36px;
+                    width: 124px;
+                    text-align: center;
+                    box-sizing: border-box;
+                    a {
+                        text-decoration: none;
+                        color: inherit;
+                    }
+                }
+            }
+            dd:nth-child(2) {
+                position: relative;
+                span {
+                    position: absolute;
+                    top: 2px;
+                    right: 0px;
+                    display: inline-block;
+                    padding: 1px 2px;
+                    font-size: 12px;
+                    line-height: 12px;
+                    color: #fff;
+                    background-color: #ff6600;
+                    border-radius: 7px 7px 7px 0;
+                    min-width: 12px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.header {
+    background: #fff !important;
+    padding-top: 20px;
+    .theader {
+        position: relative;
+        height: 100px;
+        width: 1210px;
+        min-width: 990px;
+        background: #fff;
+        box-sizing: border-box;
+        padding-right: 5px;
+        padding-left: 5px;
+        margin: 0 auto;
+        .logo1 {
+            float: left;
+        }
+    }
+}
